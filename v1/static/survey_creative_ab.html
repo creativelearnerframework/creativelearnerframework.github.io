@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Links
+		</title>
+		<meta http-equiv="refresh" content="0">
+	</head>
+	<body onload="loadab()">
+		<p>Creative Learner Survey AB Testing.<br>
+		This page is going to refresh now!</p>
+	</body>
+	<script>
+	function loadab() {
+		var rand = Math.random() < 0.5;
+		if (rand) {
+			location.href = 'https://forms.gle/WkGLFDcSDFay8ApQA';
+		} else {
+			location.href = 'https://forms.gle/WkGLFDcSDFay8ApQA';
+		}
+	}
+	</script>
+</html>
